@@ -91,7 +91,7 @@ function buildBookingMessage(data) {
     `رقم التواصل: ${data.get("phone")}`,
     `الخدمة: ${data.get("service")}`,
     `الوقت المفضل: ${data.get("time")}`,
-    "أرجو تأكيد التوفر والسعر النهائي. شكرًا لكم."
+    "أرجو تأكيد توفر الموعد. شكرًا لكم."
   ].join("\n");
 }
 
